@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>ConsoleApp1</id>
+		<version>1.0.0</version>
+		<authors>Your Name</authors>
+		<description>A brief description of your application</description>
+		<!-- Other metadata fields -->
+	</metadata>
+	<files>
+		<file src="chocolateyinstall.ps1" target="tools" />
+		<file src="chocolateyuninstall.ps1" target="tools" />
+		<file src="bin\Release\net8.0\publish\**" target="tools" />
+	</files>
+</package>
