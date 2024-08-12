@@ -8,8 +8,8 @@
 
 5: choco pack ConsoleApp1.nuspec
 
-6: choco install ConsoleApp1
+6: choco install ConsoleApp1 -s . -f
 
 7: ConsoleApp1
 
-8: choco uninstall ConsoleApp1
+8:  choco uninstall ConsoleApp1 -s . -f
