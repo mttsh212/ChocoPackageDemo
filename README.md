@@ -1,6 +1,6 @@
 1: Git clone https://github.com/mttsh212/ChocoPackageDemo
 
-2: select Release Model
+2: select Release Mode
 
 3: Build => publish section => folder option and publish the app.
 
